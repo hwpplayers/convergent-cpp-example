@@ -1,0 +1,15 @@
+{
+    "name": "co-cpp.mertgor",
+    "description": "convergent-cpp",
+    "architecture": "@CLICK_ARCH@",
+    "title": "co-cpp",
+    "hooks": {
+        "co-cpp": {
+            "apparmor": "co-cpp.apparmor",
+            "desktop":  "co-cpp.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Mert Gör <mertgor@masscollabs.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}
